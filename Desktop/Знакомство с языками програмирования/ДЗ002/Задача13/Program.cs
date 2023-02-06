@@ -7,10 +7,8 @@
 Console.Clear();
 
 Console.WriteLine("Введите число: ");
-string num = Console.ReadLine();
-int n = num.Length;
+int n = Convert.ToInt32(Console.ReadLine());
 
-if (n >= 3)
-Console.WriteLine(num[2]);
-else
-Console.WriteLine("Третьей цифры нет");
+if (n >= 100 && n < 1000) {
+    n
+}
